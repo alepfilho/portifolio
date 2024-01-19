@@ -10,5 +10,4 @@ import { NgbAccordionModule } from '@ng-bootstrap/ng-bootstrap';
 })
 export class AccordionComponent {
   @Input() titulo!: string;
-  @Input() content!: string;
 }

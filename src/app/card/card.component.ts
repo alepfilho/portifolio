@@ -12,5 +12,6 @@ export class CardComponent {
   @Input() imagem!: string;
   @Input() titulo!: string;
   @Input() recursos!: string;
+  @Input() class!: string;
 
 }
