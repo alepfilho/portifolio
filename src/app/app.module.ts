@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './routes/home/home.component';
 import { AccordionComponent } from './accordion/accordion.component';
 import { CardComponent } from './card/card.component';
+import { HomeEnComponent } from './routes/home-en/home-en.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    HomeEnComponent
   ],
   imports: [
     BrowserModule,
